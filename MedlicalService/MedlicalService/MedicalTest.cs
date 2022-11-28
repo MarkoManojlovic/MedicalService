@@ -33,7 +33,7 @@ namespace MedlicalService
             medicalPage.BookButton.Submit();
 
             Assert.That("Appointment Confirmation", Is.EqualTo(medicalPage.Confirm.Text));
-            Assert.That()
+            
 
 
         }
