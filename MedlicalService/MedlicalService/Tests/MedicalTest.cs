@@ -1,7 +1,7 @@
 using MedlicalService.Driver;
 using MedlicalService.Page;
 
-namespace MedlicalService
+namespace MedlicalService.Tests
 {
     public class Tests
     {
@@ -33,7 +33,7 @@ namespace MedlicalService
             medicalPage.BookButton.Submit();
 
             Assert.That("Appointment Confirmation", Is.EqualTo(medicalPage.Confirm.Text));
-            
+
 
 
         }
